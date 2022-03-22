@@ -274,15 +274,15 @@ button.ui-button::-moz-focus-inner {
 	font-size: 1em;
 }
 .ui-widget-content {
-	border: 1px solid #a6c9e2;
+	border: 1px solid rgb(245, 192, 18);
 	color: #222222;
 }
 .ui-widget-content a {
 	color: #222222;
 }
 .ui-widget-header {
-	border: 1px solid #4297d7;
-	background: #5c9ccc url("images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x;
+	border: 1px solid rgb(245, 192, 18);
+	background: rgb(245, 192, 18) url("images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") 50% 50% repeat-x;
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -295,15 +295,15 @@ button.ui-button::-moz-focus-inner {
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-	border: 1px solid #c5dbec;
-	background: #dfeffc url("images/ui-bg_glass_85_dfeffc_1x400.png") 50% 50% repeat-x;
+	border: 1px solid rgb(245, 192, 18);
+	background: rgb(245, 192, 18) url("images/ui-bg_glass_85_dfeffc_1x400.png") 50% 50% repeat-x;
 	font-weight: bold;
-	color: #2e6e9e;
+	color: rgb(245, 192, 18);
 }
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited {
-	color: #2e6e9e;
+	color: rgb(245, 192, 18);
 	text-decoration: none;
 }
 .ui-state-hover,
@@ -312,10 +312,10 @@ button.ui-button::-moz-focus-inner {
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
-	border: 1px solid #79b7e7;
+	border: 1px solid rgb(245, 192, 18);
 	background: #d0e5f5 url("images/ui-bg_glass_75_d0e5f5_1x400.png") 50% 50% repeat-x;
 	font-weight: bold;
-	color: #1d5987;
+	color: rgb(245, 192, 18);
 }
 .ui-state-hover a,
 .ui-state-hover a:hover,
@@ -325,13 +325,13 @@ button.ui-button::-moz-focus-inner {
 .ui-state-focus a:hover,
 .ui-state-focus a:link,
 .ui-state-focus a:visited {
-	color: #1d5987;
+	color: rgb(245, 192, 18);
 	text-decoration: none;
 }
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
-	border: 1px solid #79b7e7;
+	border: 1px solid rgb(245, 192, 18);
 	background: #f5f8f9 url("images/ui-bg_inset-hard_100_f5f8f9_1x100.png") 50% 50% repeat-x;
 	font-weight: bold;
 	color: #e17009;
@@ -640,14 +640,14 @@ button.ui-button::-moz-focus-inner {
 
 /* Overlays */
 .ui-widget-overlay {
-	background: #aaaaaa;
+	background: rgb(245, 192, 18);
 	opacity: .3;
 	filter: Alpha(Opacity=30); /* support: IE8 */
 }
 .ui-widget-shadow {
 	margin: -8px 0 0 -8px;
 	padding: 8px;
-	background: #aaaaaa;
+	background:rgb(245, 192, 18);
 	opacity: .3;
 	filter: Alpha(Opacity=30); /* support: IE8 */
 	border-radius: 8px;
